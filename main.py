@@ -67,7 +67,7 @@ while True:
         time.sleep(0.5) 
         kbd.send(Keycode.COMMAND, Keycode.T)
         time.sleep(0.2)
-        layout.write('https://mail.google.com')
+        layout.write('https://discord.com/channels/@me')
         time.sleep(0.5)
         kbd.send(Keycode.ENTER)
         time.sleep(0.5)
@@ -83,21 +83,21 @@ while True:
     if not d2.value:
 
     	led.value = False # led on
-    	open_app("terminal.app")
+    	open_app("Imovie.app")
         time.sleep(0.5)  # debounce delay
         led.value = True # led off        
 
     if not d3.value:
 
     	led.value = False # led on
-    	open_app("notes.app")
+    	open_app("Music.app")
         time.sleep(0.5)  # debounce delay
         led.value = True # led off
 
     if not d4.value:
 
     	led.value = False # led on
-    	open_app("Amazon Music.app")
+    	open_app("Ultimaker Cura")
         time.sleep(0.5)  # debounce delay
         led.value = True # led off        
 
