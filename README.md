@@ -8,4 +8,4 @@ You can now delete all the files on the "circuitpy" drive apart from the .uf2 fi
 
 
 
-Credits to Andy Warburton for the helping me out with the code and allowing me to develop on his code.
+Credits to Andy Warburton for helping me out with the code and allowing me to develop on his code.
